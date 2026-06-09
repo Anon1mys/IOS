@@ -107,7 +107,7 @@ export default function ProfileScreen() {
             <Text style={styles.buttonText}>Zapisz zmiany</Text>
           </TouchableOpacity>
 
-          {saved && <Text style={styles.success}>Profil zapisany!</Text>}
+          {saved && <Text style={styles.success}>Zapisano pomyślnie!</Text>}
         </View>
       </ScrollView>
     </SafeAreaView>

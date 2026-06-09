@@ -6,7 +6,7 @@ export const colors = {
   textSecondary: '#64748b',
   accent: '#1d4ed8',
   accentLight: '#bfdbfe',
-  border: '#e2e8f0',
+  border: '#cbd5e1',
   error: '#dc2626',
 };
 

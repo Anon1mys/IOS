@@ -60,7 +60,7 @@ export default function ProjectsListScreen() {
         style={styles.addButton}
         onPress={() => router.push('/projects/new')}
       >
-        <Text style={styles.addButtonText}>Dodaj projekt</Text>
+        <Text style={styles.addButtonText}>Nowy projekt</Text>
       </TouchableOpacity>
     </View>
   );

@@ -24,7 +24,7 @@ export default function ContactScreen() {
     <SafeAreaView style={styles.safe} edges={['bottom']}>
       <ScrollView contentContainerStyle={styles.container}>
         <Text style={styles.title}>Kontakt</Text>
-        <Text style={styles.subtitle}>Masz pytanie? Napisz do mnie</Text>
+        <Text style={styles.subtitle}>Chcesz się skontaktować? Napisz wiadomość</Text>
 
         <View style={styles.card}>
           <ContactRow icon="mail-outline" label="E-mail" value={EMAIL} />

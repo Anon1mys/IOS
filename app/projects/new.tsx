@@ -92,7 +92,7 @@ export default function AddProjectScreen() {
         style={[styles.input, styles.inputMultiline, errors.description && styles.inputError]}
         value={description}
         onChangeText={setDescription}
-        placeholder="Krótki opis projektu"
+        placeholder="Opisz swój projekt"
         multiline
       />
       {errors.description && <Text style={styles.error}>{errors.description}</Text>}
