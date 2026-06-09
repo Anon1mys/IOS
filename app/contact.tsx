@@ -30,7 +30,7 @@ export default function ContactScreen() {
           <ContactRow icon="mail-outline" label="E-mail" value={EMAIL} />
           <ContactRow icon="logo-github" label="GitHub" value="github.com/maksymleskiv" />
           <ContactRow icon="logo-linkedin" label="LinkedIn" value="linkedin.com/in/maksymleskiv" />
-          <ContactRow icon="location-outline" label="Lokalizacja" value="Katowice, Poland" />
+          <ContactRow icon="location-outline" label="Lokalizacja" value="Katowice, Polska" />
         </View>
 
         <TouchableOpacity style={styles.button} onPress={openEmail}>

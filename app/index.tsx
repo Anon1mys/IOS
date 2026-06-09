@@ -76,7 +76,7 @@ export default function ProfileScreen() {
         </View>
 
         <View style={styles.card}>
-          <Text style={styles.sectionTitle}>Edytuj profil</Text>
+          <Text style={styles.sectionTitle}>Edycja profilu</Text>
 
           <Text style={styles.label}>Imię i nazwisko</Text>
           <TextInput
@@ -104,7 +104,7 @@ export default function ProfileScreen() {
           />
 
           <TouchableOpacity style={styles.button} onPress={handleSave}>
-            <Text style={styles.buttonText}>Zapisz profil</Text>
+            <Text style={styles.buttonText}>Zapisz zmiany</Text>
           </TouchableOpacity>
 
           {saved && <Text style={styles.success}>Profil zapisany!</Text>}

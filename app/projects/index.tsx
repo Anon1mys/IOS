@@ -46,7 +46,7 @@ export default function ProjectsListScreen() {
         keyExtractor={(item) => item.id}
         contentContainerStyle={styles.list}
         ListEmptyComponent={
-          <Text style={styles.empty}>Brak projektów do wyświetlenia</Text>
+          <Text style={styles.empty}>Nie znaleziono projektów</Text>
         }
         renderItem={({ item }) => (
           <ProjectCard
