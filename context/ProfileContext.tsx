@@ -12,7 +12,7 @@ export interface Profile {
 const defaultProfile: Profile = {
   name: 'Maksym Leskiv',
   bio: 'Student informatyki, interesuję się programowaniem mobilnym i aplikacjami webowymi. Chętnie uczę się nowych technologii.',
-  skills: ['React Native', 'TypeScript', 'JavaScript', 'PHP', 'MySQL', 'Git'],
+  skills: ['React Native', 'Expo', 'TypeScript', 'JavaScript', 'PHP', 'MySQL', 'Git'],
 };
 
 interface ProfileContextType {

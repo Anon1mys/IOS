@@ -83,7 +83,7 @@ export default function AddProjectScreen() {
         style={[styles.input, errors.name && styles.inputError]}
         value={name}
         onChangeText={setName}
-        placeholder="np. Moja aplikacja"
+        placeholder="Wpisz nazwę projektu"
       />
       {errors.name && <Text style={styles.error}>{errors.name}</Text>}
 

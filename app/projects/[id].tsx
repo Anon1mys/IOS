@@ -40,7 +40,7 @@ export default function ProjectDetailsScreen() {
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <View style={styles.card}>
         <Text style={styles.name}>{project.name}</Text>
-        <Text style={styles.year}>Rok: {project.year}</Text>
+        <Text style={styles.year}>Rok realizacji: {project.year}</Text>
 
         <Text style={styles.sectionTitle}>Opis</Text>
         <Text style={styles.description}>{project.description}</Text>

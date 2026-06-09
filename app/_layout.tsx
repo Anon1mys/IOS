@@ -15,6 +15,7 @@ export default function RootLayout() {
             headerStyle: { backgroundColor: colors.card },
             headerTintColor: colors.accent,
             tabBarStyle: { backgroundColor: colors.card },
+            tabBarLabelStyle: { fontSize: 12 },
           }}
         >
           <Tabs.Screen
