@@ -29,7 +29,10 @@ Aplikacja prezentuje profil studenta - dane osobowe, umiejetnosci, projekty i ko
 
 ## Zrzuty ekranu
 
-TODO: dodac screenshoty z symulatora iOS / Expo Go
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/57a17f24-ad63-4657-beb7-c9b64634c7be" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/1884d9b4-97ae-41c5-be8a-d95a529885c5" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/6d9c4995-19f1-47ca-a006-da11ab61d32c" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/89d59bea-7229-4726-8943-a0080c481cb3" />
 
 ## Technologie
 
