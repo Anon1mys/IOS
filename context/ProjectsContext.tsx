@@ -17,7 +17,6 @@ export function ProjectsProvider({ children }: { children: React.ReactNode }) {
   const [projects, setProjects] = useState<Project[]>(defaultProjects);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Wczytaj projekty z AsyncStorage lub użyj domyślnych
   useEffect(() => {
     async function loadProjects() {
       const saved = await loadData<Project[]>(STORAGE_KEY);
@@ -57,7 +56,7 @@ export function ProjectsProvider({ children }: { children: React.ReactNode }) {
 export function useProjects() {
   const context = useContext(ProjectsContext);
   if (!context) {
-    throw new Error('useProjects musi być użyty wewnątrz ProjectsProvider');
+    throw new Error('brak ProjectsProvider');
   }
   return context;
 }

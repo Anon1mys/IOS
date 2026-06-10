@@ -1,50 +1,65 @@
 # Portfolio
 
-Aplikacja mobilna na zajecia z programowania mobilnego (React Native + Expo).
+Aplikacja mobilna na iOS zrobiona w **React Native** i **Expo** (nie native Swift/Xcode).
+
+Projekt z zajec laboratoryjnych - Programowanie mobilne na iOS.
 
 ## Opis
 
-Aplikacja sluzy do prezentacji profilu studenta. Mozna tam zobaczyc dane o sobie, umiejetnosci, projekty i kontakt.
+Aplikacja prezentuje profil studenta - dane osobowe, umiejetnosci, projekty i kontakt. Dane zapisuja sie lokalnie w AsyncStorage.
 
-Ekrany w aplikacji:
-- **Profil** - zdjecie, opis, umiejetnosci, mozna edytowac i zapisac dane
-- **Projekty** - lista projektow, wyszukiwanie po nazwie, dodawanie nowych
-- **Kontakt** - email, github, linkedin, lokalizacja
+## Ekrany
+
+**Profil**
+- zdjecie, imie, krotki opis
+- lista umiejetnosci
+- formularz do edycji profilu i zapisu zmian
+
+**Projekty**
+- lista projektow jako karty
+- wyszukiwanie po nazwie
+- szczegoly projektu po kliknieciu
+- formularz dodawania nowego projektu
+- usuwanie projektu
+
+**Kontakt**
+- email, GitHub, LinkedIn
+- lokalizacja: Katowice
+- przyciski do wyslania maila i otwarcia linkow
+
+## Zrzuty ekranu
+
+TODO: dodac screenshoty z symulatora iOS / Expo Go
 
 ## Technologie
 
 - React Native
 - Expo
 - TypeScript
-- Expo Router (nawigacja)
-- AsyncStorage (zapis danych lokalnie)
+- Expo Router
+- AsyncStorage
 - Context API
 
 ## Uruchomienie
 
-1. Zainstaluj zaleznosci:
 ```
 npm install
-```
-
-2. Uruchom projekt:
-```
 npx expo start
 ```
 
-3. Zeskanuj kod QR w aplikacji Expo Go na telefonie (Android)
+Potem:
+- zeskanuj kod QR w aplikacji Expo Go na telefonie
+- albo uruchom projekt w symulatorze iOS (wymaga Maca)
 
-## Struktura projektu
+## Struktura
 
 ```
-app/          - ekrany aplikacji
-context/      - Context API (profil i projekty)
-data/         - domyslne dane projektow
-utils/        - funkcje do AsyncStorage
+app/       - ekrany
+context/   - stan profilu i projektow
+data/      - domyslne projekty
+utils/     - AsyncStorage
 ```
 
 ## Autor
 
 Maksym Leskiv
-
-Projekt z laboratoriow - Programowanie mobilne na IOS

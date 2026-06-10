@@ -27,7 +27,6 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
   const [profile, setProfile] = useState<Profile>(defaultProfile);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Wczytaj profil z pamięci przy starcie aplikacji
   useEffect(() => {
     async function loadProfile() {
       const saved = await loadData<Profile>(STORAGE_KEY);
@@ -54,7 +53,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 export function useProfile() {
   const context = useContext(ProfileContext);
   if (!context) {
-    throw new Error('useProfile musi być użyty wewnątrz ProfileProvider');
+    throw new Error('brak ProfileProvider');
   }
   return context;
 }

@@ -21,7 +21,6 @@ export default function ProfileScreen() {
   const [skillsText, setSkillsText] = useState('');
   const [saved, setSaved] = useState(false);
 
-  // Wczytaj dane do formularza po załadowaniu profilu z AsyncStorage
   useEffect(() => {
     if (!isLoading) {
       setName(profile.name);

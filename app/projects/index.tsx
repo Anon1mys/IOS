@@ -18,7 +18,6 @@ export default function ProjectsListScreen() {
   const router = useRouter();
   const [search, setSearch] = useState('');
 
-  // Filtruj projekty po nazwie (dodatkowe ulepszenie z laboratorium)
   const filtered = projects.filter((p) =>
     p.name.toLowerCase().includes(search.toLowerCase())
   );

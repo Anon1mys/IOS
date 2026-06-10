@@ -6,7 +6,6 @@ export interface Project {
   year: number;
 }
 
-// Domyślne projekty – używane przy pierwszym uruchomieniu aplikacji
 export const defaultProjects: Project[] = [
   {
     id: '1',

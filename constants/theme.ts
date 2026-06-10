@@ -1,4 +1,3 @@
-// Wspólne kolory i odstępy używane w całej aplikacji
 export const colors = {
   background: '#f1f5f9',
   card: '#ffffff',
